@@ -65,5 +65,18 @@ The following table summarizes the performance metrics for each model:
 | Naive Bayes         | 0.8164   | 0.95          | 0.27          | 0.85       | 0.54       | 0.89         | 0.36         | 0.61                 | 0.69             | 0.63              | 0.88                   | 0.82                 | 0.84                 |
 | Decision Tree       | 0.8497   | 0.92          | 0.25          | 0.91       | 0.28       | 0.92         | 0.26         | 0.59                 | 0.59             | 0.59              | 0.86                   | 0.85                 | 0.85                 |
 
+### Summary
+The results of the models show the following key points:
+- **High Accuracy:** Logistic Regression and Neural Network models show the highest accuracy, indicating they are generally good at predicting the overall outcome.
+- **Precision and Recall for Class 0 (No Heart Disease):** All models have high precision and recall for class 0, indicating they are very good at correctly identifying individuals without heart disease.
+- **Struggling with Class 1 (Heart Disease):** Most models have lower precision and recall for class 1, indicating they struggle to correctly identify individuals with heart disease.
+  - Logistic Regression and Random Forest models have moderate precision but very low recall for class 1.
+  - Neural Network has higher precision for class 1 but still has very low recall.
+  - Naive Bayes shows a more balanced approach with relatively higher recall for class 1 but lower precision.
+- **F1-Scores:** F1-scores are generally higher for class 0 across all models, showing that they perform better at predicting no heart disease.
+
+### Conclusion
+The models are very good at correctly predicting the absence of heart disease (class 0) but struggle more with predicting the presence of heart disease (class 1). This indicates a need for further tuning and possibly exploring additional features or different modeling approaches to improve recall for heart disease cases.
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs, feature requests, or improvements.
