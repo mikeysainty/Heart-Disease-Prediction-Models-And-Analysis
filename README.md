@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter notebook for predicting the likelihood of heart disease using various machine learning models. The dataset used in this project is the Behavioral Risk Factor Surveillance System (BRFSS) 2015 dataset. It includes various health-related attributes and is publicly available on Kaggle. The notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and model interpretation.
 
-- **Source:** [BRFSS 2015 Dataset on Kaggle](https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system/data)
+**Source:** [BRFSS 2015 Dataset on Kaggle](https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system/data)
 
 ## Features
 
