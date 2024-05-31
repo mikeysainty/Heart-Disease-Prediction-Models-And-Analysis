@@ -1,11 +1,9 @@
 # Heart Disease Prediction Models and Analysis
-
 This repository contains a Jupyter notebook for predicting the likelihood of heart disease using various machine learning models. The dataset used in this project is the Behavioral Risk Factor Surveillance System (BRFSS) 2015 dataset. It includes various health-related attributes and is publicly available on Kaggle. The notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and model interpretation.
 
 **Source:** [BRFSS 2015 Dataset on Kaggle](https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system/data)
 
 ## Features
-
 ### Data Loading and Preprocessing
 - **Loading the dataset:** Load the dataset from a CSV file.
 - **Selecting specific features:** Select features related to heart disease from the 330 available variables in the dataset.
@@ -29,7 +27,6 @@ This repository contains a Jupyter notebook for predicting the likelihood of hea
 - **Random Forest and Decision Tree:** Feature importance scores.
 
 ## Dataset
-
 The dataset includes over 330 features, but the notebook focuses on the following health-related attributes:
 - **HeartDiseaseorAttack:** Binary classification indicating the presence (1) or absence (0) of heart disease or heart attack.
 - **HighBP:** Binary classification indicating high blood pressure.
@@ -65,7 +62,7 @@ The following table summarizes the performance metrics for each model:
 | Naive Bayes         | 0.8164   | 0.95          | 0.27          | 0.85       | 0.54       | 0.89         | 0.36         | 0.61                 | 0.69             | 0.63              | 0.88                   | 0.82                 | 0.84                 |
 | Decision Tree       | 0.8497   | 0.92          | 0.25          | 0.91       | 0.28       | 0.92         | 0.26         | 0.59                 | 0.59             | 0.59              | 0.86                   | 0.85                 | 0.85                 |
 
-### Summary
+## Summary
 The results of the models show the following key points:
 - **High Accuracy:** Logistic Regression and Neural Network models show the highest accuracy, indicating they are generally good at predicting the overall outcome.
 - **Precision and Recall for Class 0 (No Heart Disease):** All models have high precision and recall for class 0, indicating they are very good at correctly identifying individuals without heart disease.
@@ -75,7 +72,7 @@ The results of the models show the following key points:
   - Naive Bayes shows a more balanced approach with relatively higher recall for class 1 but lower precision.
 - **F1-Scores:** F1-scores are generally higher for class 0 across all models, showing that they perform better at predicting no heart disease.
 
-### Conclusion
+## Conclusion
 The models are very good at correctly predicting the absence of heart disease (class 0) but struggle more with predicting the presence of heart disease (class 1). This indicates a need for further tuning and possibly exploring additional features or different modeling approaches to improve recall for heart disease cases.
 
 ## Contributing
