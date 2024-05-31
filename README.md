@@ -70,6 +70,7 @@ The results of the models show the following key points:
   - Logistic Regression and Random Forest models have moderate precision but very low recall for class 1.
   - Neural Network has higher precision for class 1 but still has very low recall.
   - Naive Bayes shows a more balanced approach with relatively higher recall for class 1 but lower precision.
+- **Class Imbalance:** The significant class imbalance in the dataset (229,787 instances of no heart disease vs. 23,893 instances of heart disease) affects the models' ability to correctly identify heart disease cases compared to no heart disease cases.
 - **F1-Scores:** F1-scores are generally higher for class 0 across all models, showing that they perform better at predicting no heart disease.
 
 ## Conclusion
